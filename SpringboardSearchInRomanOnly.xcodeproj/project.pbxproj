@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C4B448318BEC75800EE557F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6C4B448218BEC75800EE557F /* README.md */; };
+		6CE1B04E18BDF80F00C807A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CE1B04C18BDF80F00C807A5 /* InfoPlist.strings */; };
+		6CE1B05718BDF89F00C807A5 /* SpringboardSearchInRomanOnly.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE1B05618BDF89F00C807A5 /* SpringboardSearchInRomanOnly.m */; };
+		6CE1B05A18BE255500C807A5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE1B04318BDF80F00C807A5 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C4B448218BEC75800EE557F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		6CE1B04018BDF80F00C807A5 /* SpringboardSearchInRomanOnly.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringboardSearchInRomanOnly.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE1B04318BDF80F00C807A5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6CE1B04618BDF80F00C807A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6CE1B04718BDF80F00C807A5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6CE1B04818BDF80F00C807A5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6CE1B04B18BDF80F00C807A5 /* SpringboardSearchInRomanOnly-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpringboardSearchInRomanOnly-Info.plist"; sourceTree = "<group>"; };
+		6CE1B04D18BDF80F00C807A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6CE1B04F18BDF80F00C807A5 /* SpringboardSearchInRomanOnly-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpringboardSearchInRomanOnly-Prefix.pch"; sourceTree = "<group>"; };
+		6CE1B05518BDF89F00C807A5 /* SpringboardSearchInRomanOnly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringboardSearchInRomanOnly.h; sourceTree = "<group>"; };
+		6CE1B05618BDF89F00C807A5 /* SpringboardSearchInRomanOnly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringboardSearchInRomanOnly.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CE1B03D18BDF80F00C807A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE1B05A18BE255500C807A5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CE1B03718BDF80F00C807A5 = {
+			isa = PBXGroup;
+			children = (
+				6C4B448218BEC75800EE557F /* README.md */,
+				6CE1B04918BDF80F00C807A5 /* SpringboardSearchInRomanOnly */,
+				6CE1B04218BDF80F00C807A5 /* Frameworks */,
+				6CE1B04118BDF80F00C807A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CE1B04118BDF80F00C807A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CE1B04018BDF80F00C807A5 /* SpringboardSearchInRomanOnly.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CE1B04218BDF80F00C807A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CE1B04318BDF80F00C807A5 /* Cocoa.framework */,
+				6CE1B04518BDF80F00C807A5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CE1B04518BDF80F00C807A5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CE1B04618BDF80F00C807A5 /* Foundation.framework */,
+				6CE1B04718BDF80F00C807A5 /* CoreData.framework */,
+				6CE1B04818BDF80F00C807A5 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6CE1B04918BDF80F00C807A5 /* SpringboardSearchInRomanOnly */ = {
+			isa = PBXGroup;
+			children = (
+				6CE1B05518BDF89F00C807A5 /* SpringboardSearchInRomanOnly.h */,
+				6CE1B05618BDF89F00C807A5 /* SpringboardSearchInRomanOnly.m */,
+				6CE1B04A18BDF80F00C807A5 /* Supporting Files */,
+			);
+			path = SpringboardSearchInRomanOnly;
+			sourceTree = "<group>";
+		};
+		6CE1B04A18BDF80F00C807A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CE1B04B18BDF80F00C807A5 /* SpringboardSearchInRomanOnly-Info.plist */,
+				6CE1B04C18BDF80F00C807A5 /* InfoPlist.strings */,
+				6CE1B04F18BDF80F00C807A5 /* SpringboardSearchInRomanOnly-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CE1B03F18BDF80F00C807A5 /* SpringboardSearchInRomanOnly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE1B05218BDF80F00C807A5 /* Build configuration list for PBXNativeTarget "SpringboardSearchInRomanOnly" */;
+			buildPhases = (
+				6CE1B03C18BDF80F00C807A5 /* Sources */,
+				6CE1B03D18BDF80F00C807A5 /* Frameworks */,
+				6CE1B03E18BDF80F00C807A5 /* Resources */,
+				6CE1B06218BE2EC600C807A5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpringboardSearchInRomanOnly;
+			productName = SpringboardSearchInRomanOnly;
+			productReference = 6CE1B04018BDF80F00C807A5 /* SpringboardSearchInRomanOnly.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CE1B03818BDF80F00C807A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Norio Nomura";
+			};
+			buildConfigurationList = 6CE1B03B18BDF80F00C807A5 /* Build configuration list for PBXProject "SpringboardSearchInRomanOnly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6CE1B03718BDF80F00C807A5;
+			productRefGroup = 6CE1B04118BDF80F00C807A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CE1B03F18BDF80F00C807A5 /* SpringboardSearchInRomanOnly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CE1B03E18BDF80F00C807A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4B448318BEC75800EE557F /* README.md in Resources */,
+				6CE1B04E18BDF80F00C807A5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6CE1B06218BE2EC600C807A5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${CONFIGURATION}\" = \"Release\" ]; then\ncd ${TARGET_BUILD_DIR}\nzip -r ${SRCROOT}/downloads/${PRODUCT_NAME}-${VERSION}.zip *.bundle\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CE1B03C18BDF80F00C807A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE1B05718BDF89F00C807A5 /* SpringboardSearchInRomanOnly.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CE1B04C18BDF80F00C807A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CE1B04D18BDF80F00C807A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CE1B05018BDF80F00C807A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6CE1B05118BDF80F00C807A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6CE1B05318BDF80F00C807A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpringboardSearchInRomanOnly/SpringboardSearchInRomanOnly-Prefix.pch";
+				INFOPLIST_FILE = "SpringboardSearchInRomanOnly/SpringboardSearchInRomanOnly-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSION = 0.1;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6CE1B05418BDF80F00C807A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpringboardSearchInRomanOnly/SpringboardSearchInRomanOnly-Prefix.pch";
+				INFOPLIST_FILE = "SpringboardSearchInRomanOnly/SpringboardSearchInRomanOnly-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSION = 0.1;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CE1B03B18BDF80F00C807A5 /* Build configuration list for PBXProject "SpringboardSearchInRomanOnly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE1B05018BDF80F00C807A5 /* Debug */,
+				6CE1B05118BDF80F00C807A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE1B05218BDF80F00C807A5 /* Build configuration list for PBXNativeTarget "SpringboardSearchInRomanOnly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE1B05318BDF80F00C807A5 /* Debug */,
+				6CE1B05418BDF80F00C807A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CE1B03818BDF80F00C807A5 /* Project object */;
+}
